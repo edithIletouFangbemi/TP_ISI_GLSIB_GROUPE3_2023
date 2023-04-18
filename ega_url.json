@@ -9,7 +9,7 @@
 			"name": "ClientRequests",
 			"item": [
 				{
-					"name": "http://localhost:8080/ega/client/3",
+					"name": "Créer un client",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -38,7 +38,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8080/ega/client/5",
+					"name": "Information d'un client",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -71,7 +71,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8080/ega/clients",
+					"name": "Liste des clients",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -103,7 +103,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8080/ega/clientDeleted",
+					"name": "Liste des Clients supprimés",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -136,7 +136,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8080/ega/supprimer/4",
+					"name": "Modifier un client",
 					"request": {
 						"method": "PUT",
 						"header": [],
@@ -166,7 +166,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8080/ega/client/5",
+					"name": "Supprimer un client",
 					"request": {
 						"method": "DELETE",
 						"header": [],
@@ -201,7 +201,7 @@
 			"name": "CompteRequests",
 			"item": [
 				{
-					"name": "http://localhost:8080/ega/creer-compte",
+					"name": "Créer un compte",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -230,7 +230,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8080/ega/supprimer-compte/3",
+					"name": "Information d'un compte",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -251,7 +251,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8080/ega/comptesDeleted",
+					"name": "Liste des comptes supprimés",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -271,7 +271,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8080/ega/comptes",
+					"name": "Liste des comptes",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -291,7 +291,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8080/ega/update-compte/3",
+					"name": "Modifier compte",
 					"request": {
 						"method": "PUT",
 						"header": [],
@@ -321,7 +321,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8080/ega/supprimer-compte/3",
+					"name": "Supprimer compte",
 					"request": {
 						"method": "DELETE",
 						"header": [],
@@ -342,7 +342,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8080/ega/versement",
+					"name": "Effectuer un depot",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -371,7 +371,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8080/ega/retrait",
+					"name": "Effectuer un retrait",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -400,7 +400,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8080/ega/virement",
+					"name": "Effectuer un transfert",
 					"request": {
 						"method": "POST",
 						"header": [],
